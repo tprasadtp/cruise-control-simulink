@@ -1,0 +1,13 @@
+Kp=30
+Ki=100
+cntr=tf([Kp,Ki],[1,0]);
+sys_ctrl=feedback(cntr*plant,1)
+m=1
+b=10
+k=20
+num=1
+den=[m,b,k]
+plant=tf(num,den)
+sys_ctrl=feedback(cntr*plant,1)
+t=0:0.01:2
+step(sys_ctrl,t)
