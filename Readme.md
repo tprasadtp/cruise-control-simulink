@@ -4,3 +4,5 @@
 * Import the mdl file in simulink along with all related .m files (to be in same directory) to run.
 * PID and PI control modes are available(`cruise_ctrl_only_pi...`)
 * http://www.library.cmu.edu/ctms/ctms/examples/cruise/cc.htm.
+
+[![Analytics](https://ga-beacon.prasadt.com/UA-101760811-3/github/cruise-control-simulink?flat)](https://prasadt.com/google-analytics-beacon)
